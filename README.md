@@ -34,7 +34,7 @@ GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This is the first time I have used Objective C so it took a little while to get used to it at first. 
 
 ## Credits
 
@@ -44,7 +44,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Julie Herrick]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
