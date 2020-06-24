@@ -16,6 +16,8 @@
 @property (weak, nonatomic) IBOutlet UIView *tipBar;
 @property (weak, nonatomic) IBOutlet UIView *totalBar;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *percentageBar;
+@property (weak, nonatomic) IBOutlet UILabel *tipWord;
+
 
 
 @end
@@ -61,6 +63,7 @@
    
 }
 
+
 - (IBAction)onEditingEnd:(id)sender {
     
     CGRect newFrame = self.billField.frame;
@@ -71,9 +74,48 @@
         self.totalBar.hidden = NO;
         self.percentageBar.hidden = NO;
     }];
+   self.tipBar.backgroundColor = [UIColor greenColor];
+      if (self.tipControl.selectedSegmentIndex == 0) {
+             self.tipBar.alpha = 0.3;
+          self.tipWord.alpha = 1;
+          self.tipLabel.alpha = 1;
+          // red: 208, green: 237, blue: 210
+         }
+         else if (self.tipControl.selectedSegmentIndex == 1) {
+            self.tipBar.alpha = 0.5;
+             self.tipWord.alpha = 1;
+             self.tipLabel.alpha = 1;
+             // red: 175, green: 246, blue: 178
+         }
+         else {
+             self.tipBar.alpha = 0.7;
+             self.tipWord.alpha = 1;
+             self.tipLabel.alpha = 1;
+             // red: 133, green: 249, blue: 143
+         }
+}
 
-
+- (IBAction)percentageChange:(id)sender {
     
+    self.tipBar.backgroundColor = [UIColor greenColor];
+    if (self.tipControl.selectedSegmentIndex == 0) {
+           self.tipBar.alpha = 0.3;
+        self.tipWord.alpha = 1;
+        self.tipLabel.alpha = 1;
+        // red: 208, green: 237, blue: 210
+       }
+       else if (self.tipControl.selectedSegmentIndex == 1) {
+          self.tipBar.alpha = 0.5;
+           self.tipWord.alpha = 1;
+           self.tipLabel.alpha = 1;
+           // red: 175, green: 246, blue: 178
+       }
+       else {
+           self.tipBar.alpha = 0.7;
+           self.tipWord.alpha = 1;
+           self.tipLabel.alpha = 1;
+           // red: 133, green: 249, blue: 143
+       }
 }
 
 
