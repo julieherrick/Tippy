@@ -4,7 +4,7 @@ Tippy is a tip calculator application for iOS.
 
 Submitted by: Julie Herrick
 
-Time spent: 2 hours spent in total
+Time spent: 3 hours spent in total
 
 ## User Stories
 
@@ -15,26 +15,22 @@ The following **required** functionality is complete:
 The following **optional** features are implemented:
 
 * [ ] Settings page to change the default tip percentage.
-* [ ] UI animations
+* [x] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/0kVOwcTZQs.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/9MGDSOfIu5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
 
-This is the first time I have used Objective C so it took a little while to get used to it at first. 
+This is my first project using Objective C so it took a little while to get used to it at first. I had some difficulty creating custom colors to use with my animation. As an alternative to custom colors, I adjusted the opacity on a system color but was unable to stop the text from changing opacity with the background. 
 
 ## Credits
 
